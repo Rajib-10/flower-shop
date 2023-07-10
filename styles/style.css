@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
 }
 .header-info{
     margin-left: 150px;
@@ -56,6 +56,7 @@
     align-items: center;
     background: rgba(229, 84, 115, 0.05);
     height: 620px;
+    margin-bottom: 180px;
 }
 .hot-deal-info {
     text-align: center;
@@ -70,3 +71,27 @@
 .deal-offer{
     color: #E55473;
 }
+
+/* Instagram section start here  */
+.insta-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.insta-description{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.insta-container{
+    display: flex;
+    gap: 25px;
+    margin-left: 150px;
+}
+.insta-img{
+    width: 220px;
+}
+
+
+

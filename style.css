@@ -13,6 +13,7 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 180px;
+    
 }
 .header-info{
     margin-left: 150px;
@@ -22,6 +23,8 @@
 .header-img{
     width: 423px;
     margin-top: 50px;
+    /* margin-left: 150px; */
+    margin-right: 150px;
 }
 
 .title{
@@ -48,11 +51,63 @@
     font-weight: 700;
 }
 
+/* feature flowers section start here  */
+
+.feature-flowers-container{
+    display: flex;
+    margin: 0 150px;
+    justify-content: space-around;
+}
+
+.feature-flower1{
+    height: 367px;
+    width: 300px;
+    background: #000;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.feature-flower2{
+    height: 367px;
+    width: 300px;
+    background: #000;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.feature-flower3{
+    height: 367px;
+    width: 300px;
+    background: #000;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.feature-image{
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+.feature-flower-anchor{
+    display: block;
+    margin-top: 20px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+.feature-anchor-container{
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+    margin-bottom: 180px;
+}
+
 /* hot deal section start here  */
 
 .hot-deal-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     align-items: center;
     background: rgba(229, 84, 115, 0.05);
     height: 620px;
@@ -73,6 +128,7 @@
 }
 
 /* Instagram section start here  */
+
 .insta-title{
     color: #272727;
     text-align: center;
@@ -86,13 +142,17 @@
 }
 .insta-container{
     display: flex;
-    gap: 25px;
+    gap: 34px;
     margin-left: 150px;
+    margin-right: 150px;
     margin-bottom: 180px;
 }
 .insta-img{
     width: 220px;
 }
+
+/* latest deal section start here  */
+
 .latest-deal-container{
     text-align: center;
     background: url(./rectangle\ 9.png);

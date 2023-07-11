@@ -52,39 +52,39 @@
 }
 
 /* feature flowers section start here  */
-
 .feature-flowers-container{
     display: flex;
-    margin: 0 150px;
-    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 20px;
 }
-
-.feature-flower1{
-    height: 367px;
+.feature-flower{
     width: 300px;
-    background: #000;
+    height: 408px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
-.feature-flower2{
-    height: 367px;
-    width: 300px;
-    background: #000;
-    border-radius: 300px 300px 0px 0px;
+.feature-img{
+    width: 260px;
+    margin-top: 49px;
+    margin-left: 20px;
+}
+.feature-flower-2{
     background: rgba(5, 151, 160, 0.15);
 }
-.feature-flower3{
-    height: 367px;
-    width: 300px;
-    background: #000;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+.feature-img-2{
+    margin-top: 100px;
+    margin-left: 34px;
 }
-.feature-image{
-    padding: 20px;
-    width: 250px;
-    text-align: center;
+.feature-flower-3{
+    background: rgba(71, 125, 17, 0.15);}
+.feature-img-3{
+    margin-top: 17px;
+    margin-left: 23px;
 }
+
+
+
 .feature-flower-anchor{
     display: block;
     margin-top: 20px;
